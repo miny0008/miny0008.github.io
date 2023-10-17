@@ -1,0 +1,63 @@
+/*
+This is a CSS comment
+Shortcut for adding the comment is command/control+/
+*/
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    }
+
+    header, footer {
+        background-color: olive;
+    }
+
+    .site-title {
+        color: brown;
+    }
+
+    #my-image {
+        box-shadow: 0 0 2px 1px #000000;
+    }
+
+    .square-list{
+        list-style-type: square;
+    }
+
+    .square-list li:nth-child(odd) {
+        background-color: #87ceeb;
+    }
+    
+    /* Remove bullets from the unordered list inside the navigation */
+    .navigation-list {
+        list-style-type: none;
+        padding: 0;
+    }
+
+    /* Remove underline from links, add background and border */
+    .navigation-list li a {
+        text-decoration: none;
+        background-color: #ffa500; /* Background color for links */
+        border: 2px solid #333; /* Border for links */
+        color: #fff; /* Text color for links */
+        padding: 2px 3px; /* Padding for links */
+    
+    }
+
+    /* Change background color on hover or focus state */
+    .navigation-list li a:hover, .navigation-list li a:focus {
+        background-color: #4592a0; /* Background color on hover/focus */
+    }
+
+
+    
+
+
+    
+
+
+
+
+    
+
+    
