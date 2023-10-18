@@ -9,6 +9,27 @@ body{
     color: blue;
     background-image: url(../images/white_brick_wall.png);
     }
+
+    /* Box model example*/
+    section p {
+    width: 50%;
+    /* single value = top/bottom/left/right */
+    /* 2 values = first value = top/bottom, second value = lef/righ */
+    padding: 5em .5em;
+    /* top right bottom left */
+    margin: -1em 2em 2em 2em;
+    
+    }
+
+    .container {
+        /* create a container containing everything inside the body page tag */
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    img {
+        width: 100%;
+    }
     
     h1{
     color: red;
@@ -30,9 +51,17 @@ body{
     nav ul{
     list-style: none;
     }
+
+    nav ul li {
+        display: inline-block;
+        width: 40%;
+        padding: 1em;
+        box-sizing: border-box;
+    }
     
     /* Selecting child element multiple levels */
     nav ul a {
+        display: block;
     color: blueviolet;
     text-decoration: none;
     }
@@ -61,6 +90,8 @@ body{
     
     /* Selecting HTMl elements with class name */
     .blue-link{
+        padding: 1em;
+        width: 300px;
     background-color:black;
     color: antiquewhite;
     text-decoration: none;
@@ -69,6 +100,26 @@ body{
     .large-text{
     font-size: 40px;
     }
+
+    /* Example of flot */
+    article
+    aside {
+        width: 80%;
+        background-color: rgba(255, 255, 255, 0.6);
+        border: 1px solid black;
+        padding: 1.5rem;
+        box-sizing: border-box;
+        float: left;
+    }
+
+    aside {
+        width: 20%;  
+    }
+    /* clear float from the section */
+    section {
+        clear: both;
+    }
+
     
     .white-text{
     color: darkblue;
