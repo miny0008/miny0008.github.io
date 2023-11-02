@@ -10,26 +10,32 @@
 
 <body>
     <div class="container">
+        <!-- This is an HTML comment-->
+        <!--
+   command/ctrl + / add or remove comment
+   
+      -->
         <header>
             <div class="header-container">
                 <h1 class="site-title">Lone Starfish</h1>
+                <!-- Adding an image -->
                 <img src="./images/lone-starfish-wide.jpg" alt="Photo of a Starfish" title="Photo of a lone Starfish">
             </div>
-            <section>
-                <nav role="navigation">
-                    <ul>
-                        <li><a href="HOME.html" class="nav-link">HOME</a></li>
-                        <li><a href="#life-of-a starfish" class="nav-link">STORY</a></li>
-                        <li><a href="CONTACT.html" class="nav-link">CONTACT</a></li>
-                    </ul>
-                </nav>
-            </section>
+            <nav id="navigation">
+                <ul>
+                    <li><a href="HOME.html" class="nav-link">HOME</a></li>
+                    <li><a href="STORY.html" class="nav-link">STORY</a></li>
+                    <li><a href="CONTACT.html" class="nav-link">CONTACT</a></li>
+                </ul>
+            </nav>
         </header>
         <main>
+
+            <h2>Life of the Starfish</h2>
             <section>
                 <article>
-                    <h2>Life of the Starfish</h2>
                     <div class="article">
+                        <!-- Adding an image -->
                         <img src="./images/lone-starfish.jpg" alt="Photo of a Starfish" title="Photo of a lone Starfish"
                             class="float-left">
 
@@ -60,6 +66,9 @@
                 </article>
             </section>
 
+
+
+
             <section>
                 <h3>Facts About Starfish</h3>
                 <ul>
@@ -70,7 +79,7 @@
                 </ul>
             </section>
 
-            <sectionn class="border-box">
+            <section class="border-box">
                 <h4>Contact to learn more</h4>
                 <form action="submit-form">
                     <fieldset>
@@ -80,7 +89,7 @@
                         </div>
                         <br>
                         <div class="form-group">
-                            <label for="youremail">Your Email</label>
+                            <label id="youremail">Your Email</label>
                             <input type="text" id="email-input" name="email">
                             <div class="form-group">
                                 <label for="message">Your Message</label>
@@ -101,9 +110,11 @@
                                 <button class="send-button">SEND</button>
 
                             </div>
+                        </div>
                     </fieldset>
                 </form>
-                </section>
+
+            </section>
         </main>
         <footer>
             <small> &COPY; Lone Starfish, 2023 </small>
