@@ -84,6 +84,17 @@ body{
     /* height is 100% of the bowswer*/
     /*height: 100vh;*/
 
+    position: relative;
+    padding: 1em 1em 4em 1em;
+
+
+    }
+
+    /*Pssition Absolute*/
+    .blue-link.large-text{
+        position: absolute;
+        bottom: 0;
+        right: 0;
 
     }
 
@@ -154,6 +165,15 @@ body{
     
     [src$=".jpg"]{
     border: 8px solid pink;
+    }
+
+    /* fixed navigation */
+    nav{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background-color: rgba(0, 0, 0, 0);
     }
     
     /* psuedo classes */
@@ -228,4 +248,12 @@ body{
     /* 0100 */
     #treetoftheweek{
     font-size: 24px;
+    }
+
+    
+
+    /*Pssition Absolute*/
+    .blue-link.large-text{
+        position: absolute;
+
     }
