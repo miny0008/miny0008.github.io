@@ -12,20 +12,107 @@
 <body>
     <header>
         <nav>
-            <img src="images/logo.png" id="Home" alt="Logo">
+            <img src="images/logo.png" id="top" alt="Logo">
             <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About Us</a></li>
-                <li><a href="#">Service</a></li>
+                <li><a href="#top">Home</a></li>
+                <li><a href="#us">About Us</a></li>
+                <li><a href="#services">Service</a></li>
                 <li><a href="#">Team</a></li>
                 <li><a href="#">Contact</a></li>
             </ul>
             <form action="/search" method="get">
                 <label for="search">search:</label>
                 <input type="search" id="search" name="q" placeholder="search...">
-            <input type="submit" value="search">
+                <input type="submit" value="search">
             </form>
         </nav>
-        
+
+        <div class="container">
+            <section class="info">
+                <h1>Welcome to Three Star Media </h1>
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cum tempora necessitatibus in
+                    consequuntur. Nostrum nemo voluptate maiores beatae sapiente expedita error, odit necessitatibus.
+                    Impedit, molestias dignissimos. In asperiores architecto adipisci!
+                </p>
+                <a href="#" class="btn" target="_blank">Connect with us</a>
+            </section>
+        </div>
     </header>
+    <main class="container">
+        <section class="About">
+            <div class="About info" id="us">
+                <img src="images/about-us.jpg" alt="About us">
+                <h2>About Us</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti id quidem architecto
+                    saepe. Qui dolores eligendi fugiat quam. Reprehenderit illum sed architecto voluptates
+                    provident nemo fugit sit similique soluta magnam.
+                </p>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat quisquam placeat delectus
+                    voluptatem distinctio nihil quae cum iste optio ratione hic assumenda autem dolorem
+                    deleniti, vero, accusantium, cupiditate pariatur consectetur?
+                </p>
+            </div>
+        </section>
+        <div class="cards" id="services">
+            <section class="card">
+                <h3>Our Service</h3>
+                <img src="images/digital.jpg" alt="Digital">
+                <h3>Digital Transformation</h3>
+                <p>
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet vitae itaque vel sed nulla laudantium
+                    error eveniet, hic voluptatem debitis dolor iste assumenda? Et eum atque perferendis ad! Asperiores,
+                    deleniti.
+                </p>
+                <a href="#" class="btn" target="_blank">Digital Plan</a>
+            </section>
+
+            <section class="card">
+                <img src="images/marketing.jpg" alt="Marketing">
+                <h3>Marketing</h3>
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet commodi vel unde officiis eum
+                    eligendi animi? Sint, alias sunt eligendi cum, sed labore, doloribus eveniet sit odio magnam at
+                    reprehenderit.
+                </p>
+                <a href="#" class="btn" target="_blank">Marketing Plans</a>
+            </section>
+
+            <section class="card">
+                <img src="images/video.jpg" alt="video">
+                <h3>Video Prouction</h3>
+                <p>
+                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero, quisquam vero cum mollitia
+                    doloremque reiciendis alias? Deserunt aperiam omnis laborum laudantium sequi quia enim ipsum?
+                    Eveniet quaerat quas corporis exercitationem.
+                </p>
+                <a href="#" class="btn" target="_blank">Video Plans</a>
+            </section>
+
+            <section class="card">
+                <img src="images/web.jpg" alt="web">
+                <h3>Web Development</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto, obcaecati excepturi sequi eos quos
+                    quisquam exercitationem. Omnis commodi officiis amet, quibusdam fugit corrupti suscipit? Vero eius
+                    et est nihil deserunt!
+                </p>
+                <a href="#" class="btn" target="_blank">Web Plans</a>
+            </section>
+
+            <section class="card">
+                <img src="images/print.jpg" alt="print">
+                <h3>Print</h3>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit repellat quos consequatur
+                    voluptatum obcaecati quod? Totam, suscipit quibusdam. Rerum exercitationem illum ut sunt tempore
+                    illo numquam cumque nulla eum repellat!
+                </p>
+                <a href="#" class="btn" target="_blank">Print Plans</a>
+            </section>
+        </div>
+
+    </main>
 </body>
