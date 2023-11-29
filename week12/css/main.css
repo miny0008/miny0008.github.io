@@ -1,0 +1,30 @@
+/*
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+body {
+    font-family: 'Roboto', sans-serif;
+
+}
+
+header, main {
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: gray;
+}
+
+h1, h2 {
+    font-family:  'Poppins', sans-serif;
+}
+
+.fa-code{
+    font-size: 6rem;
+    color: green;
+}
+.map iframe {
+width: 100%;
+max-width: 800px;
+margin: 0 auto;
+display: block;
+}
+
