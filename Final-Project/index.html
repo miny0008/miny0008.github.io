@@ -5,6 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Final Project &#124; Assignment</title>
+    <!--Font link style-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;700&display=swap" rel="stylesheet">
+    <!--End of font link style -->
     <!--Icon link style-->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
     <!--custom style link-->
@@ -15,8 +20,8 @@
 <body>
     <header>
         <!--Navigation-->
-        <nav>
-            <img src="images/logo.png" id="top" alt="Logo">
+        <nav class="navigation">
+            <img src="images/logo.png" id="top" alt="Logo" class="logo">
             <div>
                 <ul>
                     <li><a href="#top">Home</a></li>
@@ -150,7 +155,7 @@
                     veniam similique.
                 </p>
             </div>
-            <a href="#" class="btn" target="_blank">Learn more</a>
+            <a href="#" class="btn" target="_blank">Learn more <i class="fa-solid fa-caret-right"></i></a>
         </section>
         <!--Closing Our vision-->
 
@@ -226,9 +231,12 @@
                 </div>
                 <div>
                     <h3>Location</h3>
-                </div>
-
-            </div>
+                    <div class="map">
+                        <iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2803.9442698268485!2d-75.75750062395096!3d45.34993724105568!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4cce0718cc4a6ad7%3A0xc6cc467725843e2b!2sAlgonquin%20College%20-%20Ottawa%20Campus!5e0!3m2!1sen!2sca!4v1701216424506!5m2!1sen!2sca"
+                            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    </div>
         </section>
     </main>
 
